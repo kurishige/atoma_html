@@ -1,0 +1,112 @@
+/**
+ * コンタクト
+ *
+ * 説明
+ *
+ * @author  Shigeaki Kurimoto <kurimoto@prgear.jp>
+ * @create  2013/03/07
+ * @version 1.00
+ */
+
+/* -------------------------------------------------------------------- */
+
+/*
+ * コンタクト
+ */
+#idContactRightBar {
+ 	background-image	: url(../images/contact/right_contactbar.png);
+	background-repeat	: none;
+ 	width				: 277px;
+ 	height				: 701px; 	
+	position		    : absolute;
+	top 			    : 0px;
+	left 			    : 747px;
+	z-index				: 10;
+	display				: none;
+}
+
+#idContactArticle {
+	display				: none;
+}
+
+#idContactTitle {
+ 	background-image	: url(../images/contact/contact_title.png);
+	background-repeat	: none;
+ 	width				: 263px;
+ 	height				: 24px; 	
+	position		    : absolute;
+	top 			    : 145px;
+	left 			    : 50px;
+}
+
+.clsContactArea {
+	color		: #919191;
+	font-size	: 14px;
+	font-weight : normal;
+	font-family	: "ＭＳ Ｐゴシック","MS PGothic", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+}
+
+#idContactMessage {
+ 	width		: 640px;
+ 	height		: 180px;
+	position	: absolute;
+	left 		: 50px;
+	top			: 190px;
+	overflow	: hidden;
+	color		: #919191;
+	font-size	: 12px;
+	line-height : 20px;
+	font-weight : normal;
+	font-family	: "ＭＳ Ｐゴシック","MS PGothic", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+}
+
+#idContactTel {
+ 	background-image	: url(../images/contact/tel_no.png);
+	background-repeat	: none;
+ 	width				: 234px;
+ 	height				: 56px; 	
+	position		    : absolute;
+	top 			    : 520px;
+	left 			    : 50px;
+}
+
+#idContactTelMsg {
+ 	width		: 640px;
+ 	height		: 58px; 	
+	position	: absolute;
+	top 		: 495px;
+	left 	    : 60px;
+	color		: #0087cd;
+	font-size	: 14px;
+	font-weight : bold;
+	font-family	: "ＭＳ Ｐゴシック","MS PGothic", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+}
+
+#idContactMail {
+ 	background-image	: url(../images/contact/mail_off.png);
+	background-repeat	: none;
+ 	width				: 233px;
+ 	height				: 58px; 	
+	position		    : absolute;
+	top 			    : 410px;
+	left 			    : 50px;
+}
+
+#idContactMail:hover {
+ 	background-image	: url(../images/contact/mail_on.png);
+}
+
+#idContactMessage2 {
+ 	width		: 640px;
+ 	height		: 70px;
+	position	: absolute;
+	left 		: 50px;
+	top			: 620px;
+	overflow	: hidden;
+	color		: #919191;
+	font-size	: 11px;
+	line-height : 14px;
+	font-weight : normal;
+	font-family	: "ＭＳ Ｐゴシック","MS PGothic", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+}
+

@@ -1,0 +1,109 @@
+/**
+ * トップページ
+ *
+ * 説明
+ *
+ * @author  Shigeaki Kurimoto <kurimoto@prgear.jp>
+ * @create  2013/02/15
+ * @version 1.00
+ */
+
+/* -------------------------------------------------------------------- */
+
+/*
+ * トップページ
+ */
+#idTopRightBar {
+ 	background-image	: url(../images/top/right_menubar.png);
+	background-repeat	: none;
+ 	width				: 277px;
+ 	height				: 701px; 	
+	position		    : absolute;
+	top 			    : 0px;
+	left 			    : 747px;
+	z-index				: 10;
+}
+
+#idTopLineLeft {
+ 	background-image	: url(../images/top/line_left.png);
+	background-repeat	: none;
+ 	width				: 743px;
+ 	height				: 222px; 	
+	position		    : absolute;
+	top 			    : 400px;
+	left 			    : -718px;
+	z-index				: 1;
+}
+
+#idTopLineRight {
+ 	background-image	: url(../images/top/line_right.png);
+	background-repeat	: none;
+ 	width				: 511px;
+ 	height				: 140px; 	
+	position		    : absolute;
+	top 			    : 450px;
+	left 			    : 228px;
+	z-index				: 1;
+}
+
+#idTopMessage {
+ 	background-image	: url(../images/top/message.png);
+	background-repeat	: none;
+	width				: 383px;
+ 	height				: 53px; 	
+	position		    : absolute;
+	top 			    : 600px;
+	left 			    : 100px;
+	z-index				: 10;
+}
+
+#idTopBirth {
+ 	background-image	: url(../images/top/birth.png);
+	background-repeat	: none;
+	width				: 143px;
+ 	height				: 53px; 	
+	position		    : absolute;
+	top 			    : 600px;
+	left 			    : 500px;
+	z-index				: 10;
+	display				: none;
+}
+
+#idTopTopics {
+	position	  : absolute;
+	top 		  : 450px;
+	left 		  : 20px;
+	z-index		  : 10;
+	border-top    : 1px solid #80CEEC; 
+	border-bottom : 1px solid #80CEEC; 
+	width		  : 230px;
+	height   	  : 130px;
+	color		  : #FFFFFF;
+	font-size	  : 12px;
+	font-family	  : "ＭＳ Ｐゴシック","MS PGothic", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+	padding		  : 10px 0px;
+	overflow	  : auto;
+	line-height   : 20px;
+}
+
+#idTopTopicsTable td {
+	vertical-align : top;
+}
+
+.vscrollerbase,
+	.vscrollerbar   { width				: 3px;}
+	.vscrollerbase  { background-color	: none;}
+	.vscrollerbar   { background-color	: #80CEEC;}
+	.scrollgeneric  { position			: absolute;
+					  top				: 0;
+					  left				: 0;
+					  line-height		: 1px;
+					  font-size			: 1px; }
+	.scrollerjogbox { width				: 10px;
+					  height			: 10px;
+					  top				: auto;
+					  left				: auto;
+					  bottom			: 0px;
+					  right				: 0px;}
+
+

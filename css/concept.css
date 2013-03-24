@@ -1,0 +1,332 @@
+/**
+ * コンセプト
+ *
+ * 説明
+ *
+ * @author  Shigeaki Kurimoto <kurimoto@prgear.jp>
+ * @create  2013/03/07
+ * @version 1.00
+ */
+
+/* -------------------------------------------------------------------- */
+
+/*
+ * コンセプト
+ */
+#idConceptRightBar {
+ 	background-image	: url(../images/concept/right_conceptbar.png);
+	background-repeat	: none;
+ 	width				: 277px;
+ 	height				: 701px; 	
+	position		    : absolute;
+	top 			    : -701px;
+	left 			    : 747px;
+	z-index				: 9;
+}
+
+#idConceptTitle {
+ 	background-image	: url(../images/concept/concept_title.png);
+	background-repeat	: none;
+ 	width				: 238px;
+ 	height				: 24px; 	
+	position		    : absolute;
+	top 			    : -23px;
+	left 			    : 50px;
+}
+
+#idConceptVision {
+ 	width				: 640px;
+ 	height				: 0px; 	
+	position		    : absolute;
+	top 			    : 170px;
+	left 			    : 50px;
+	overflow	        : hidden;
+}
+
+#idConceptVision2 {
+ 	background-image	: url(../images/concept/vision_title.png);
+	background-repeat	: no-repeat;
+ 	width				: 640px;
+ 	height				: 24px;
+ 	padding-bottom      : 4px;  	
+	border-bottom       : 2px solid #509EBC;
+}
+
+#idConceptVisionArea {
+ 	width		: 640px;
+ 	height		: 0px;
+	position	: absolute;
+	left 		: 50px;
+	top			: 250px;
+	overflow	: hidden;
+	color		: #919191;
+	font-size	: 14px;
+	line-height : 20px;
+	font-weight : normal;
+	font-family	: "ＭＳ Ｐゴシック","MS PGothic", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+}
+
+#idConceptBusiness {
+ 	width				: 640px;
+ 	height				: 0px; 	
+	position		    : absolute;
+	top 			    : 645px;
+	left 			    : 50px;
+	overflow	        : hidden;
+}
+
+#idConceptBusiness2 {
+ 	background-image	: url(../images/concept/business_title.png);
+	background-repeat	: no-repeat;
+ 	width				: 640px;
+ 	height				: 23px;
+ 	padding-bottom      : 5px;  	
+	border-bottom       : 2px solid #509EBC;
+}
+
+#idConceptBusinessArea {
+ 	width		: 640px;
+ 	height		: 0px;
+	position	: absolute;
+	left 		: 50px;
+	top			: 250px;
+	overflow	: hidden;
+	color		: #919191;
+	font-size	: 14px;
+	line-height : 20px;
+	font-weight : normal;
+	font-family	: "ＭＳ Ｐゴシック","MS PGothic", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+}
+
+#idConceptBusinessPlanningTitle {
+ 	background-image	: url(../images/concept/business_planning.png);
+	background-repeat	: no-repeat;
+ 	width				: 292px;
+ 	height				: 18px;
+	position			: absolute;
+	left 				: 0px;
+	top					: 20px;
+}
+
+#idConceptBusinessPlanningMessage {
+ 	width				: 640px;
+ 	height				: 40px;
+	position			: absolute;
+	left 				: 0px;
+	top					: 50px;
+	line-height			: 20px;
+}
+
+#idConceptBusinessHomepageTitle {
+ 	background-image	: url(../images/concept/business_homepage.png);
+	background-repeat	: no-repeat;
+ 	width				: 476px;
+ 	height				: 18px;
+	position			: absolute;
+	left 				: 0px;
+	top					: 125px;
+}
+
+#idConceptBusinessHomepageMessage {
+ 	width				: 640px;
+ 	height				: 40px;
+	position			: absolute;
+	left 				: 0px;
+	top					: 155px;
+	line-height			: 20px;
+}
+
+#idConceptBusinessCiTitle {
+ 	background-image	: url(../images/concept/business_ci.png);
+	background-repeat	: no-repeat;
+ 	width				: 48px;
+ 	height				: 16px;
+	position			: absolute;
+	left 				: 0px;
+	top					: 230px;
+}
+
+#idConceptBusinessCiMessage {
+ 	width				: 640px;
+ 	height				: 20px;
+	position			: absolute;
+	left 				: 0px;
+	top					: 260px;
+	line-height			: 20px;
+}
+
+#idConceptBusinessPhotoTitle {
+ 	background-image	: url(../images/concept/business_photo.png);
+	background-repeat	: no-repeat;
+ 	width				: 89px;
+ 	height				: 18px;
+	position			: absolute;
+	left 				: 0px;
+	top					: 315px;
+}
+
+#idConceptBusinessPhotoMessage {
+ 	width				: 640px;
+ 	height				: 20px;
+	position			: absolute;
+	left 				: 0px;
+	top					: 345px;
+	line-height			: 20px;
+}
+
+#idConceptBusinessOtherTitle {
+ 	background-image	: url(../images/concept/business_other.png);
+	background-repeat	: no-repeat;
+ 	width				: 89px;
+ 	height				: 18px;
+	position			: absolute;
+	left 				: 0px;
+	top					: 400px;
+}
+
+#idConceptBusinessOtherMessage {
+ 	width				: 640px;
+ 	height				: 20px;
+	position			: absolute;
+	left 				: 0px;
+	top					: 430px;
+	line-height			: 20px;
+}
+
+#idConceptBrand {
+ 	width				: 640px;
+ 	height				: 0px; 	
+	position		    : absolute;
+	top 			    : 1150px;
+	left 			    : 50px;
+	overflow	        : hidden;
+}
+
+#idConceptBrand2 {
+ 	background-image	: url(../images/concept/brand_title.png);
+	background-repeat	: no-repeat;
+ 	width				: 640px;
+ 	height				: 28px;
+ 	padding-bottom      : 5px;  	
+	border-bottom       : 2px solid #509EBC;
+}
+
+#idConceptBrandArea {
+ 	width		: 640px;
+ 	height		: 0px;
+	position	: absolute;
+	left 		: 50px;
+	top			: 1200px;
+	overflow	: hidden;
+	color		: #919191;
+	font-size	: 14px;
+	line-height : 20px;
+	font-weight : normal;
+	font-family	: "ＭＳ Ｐゴシック","MS PGothic", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+}
+
+#idConceptBrandAreaTitle {
+ 	background-image	: url(../images/concept/brand_area_title.png);
+	background-repeat	: no-repeat;
+ 	width				: 640px;
+ 	height				: 44px;
+	position			: absolute;
+	left 				: 5px;
+	top					: 5px;
+}
+
+#idConceptBrandAreaTitle1 {
+ 	background-image	: url(../images/concept/brand_area_title1.png);
+	background-repeat	: no-repeat;
+ 	width				: 89px;
+ 	height				: 25px;
+	position			: absolute;
+	left 				: 5px;
+	top					: 80px;
+}
+
+#idConceptBrandAreaMessage1 {
+ 	width				: 640px;
+ 	height				: 20px;
+	position			: absolute;
+	left 				: 5px;
+	top					: 115px;
+	line-height			: 20px;
+}
+
+#idConceptBrandAreaTitle2 {
+ 	background-image	: url(../images/concept/brand_area_title2.png);
+	background-repeat	: no-repeat;
+ 	width				: 89px;
+ 	height				: 25px;
+	position			: absolute;
+	left 				: 5px;
+	top					: 185px;
+}
+
+#idConceptBrandAreaMessage2 {
+ 	width				: 640px;
+ 	height				: 80px;
+	position			: absolute;
+	left 				: 5px;
+	top					: 220px;
+	line-height			: 20px;
+}
+
+#idConceptBrandAreaTitle3 {
+ 	background-image	: url(../images/concept/brand_area_title3.png);
+	background-repeat	: no-repeat;
+ 	width				: 89px;
+ 	height				: 25px;
+	position			: absolute;
+	left 				: 5px;
+	top					: 330px;
+}
+
+#idConceptBrandAreaMessage3 {
+ 	width				: 640px;
+ 	height				: 80px;
+	position			: absolute;
+	left 				: 5px;
+	top					: 365px;
+	line-height			: 20px;
+}
+
+#idConceptBrandAreaTitle4 {
+ 	background-image	: url(../images/concept/brand_area_title4.png);
+	background-repeat	: no-repeat;
+ 	width				: 89px;
+ 	height				: 25px;
+	position			: absolute;
+	left 				: 5px;
+	top					: 475px;
+}
+
+#idConceptBrandAreaMessage4 {
+ 	width				: 640px;
+ 	height				: 40px;
+	position			: absolute;
+	left 				: 5px;
+	top					: 510px;
+	line-height			: 20px;
+}
+
+#idConceptBrandAreaTitle5 {
+ 	background-image	: url(../images/concept/brand_area_title5.png);
+	background-repeat	: no-repeat;
+ 	width				: 89px;
+ 	height				: 25px;
+	position			: absolute;
+	left 				: 5px;
+	top					: 580px;
+}
+
+#idConceptBrandAreaMessage5 {
+ 	width				: 640px;
+ 	height				: 60px;
+	position			: absolute;
+	left 				: 5px;
+	top					: 615px;
+	line-height			: 20px;
+}
+

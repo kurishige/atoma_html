@@ -1,0 +1,294 @@
+/**
+ * 会社概要
+ *
+ * 説明
+ *
+ * @author  Shigeaki Kurimoto <kurimoto@prgear.jp>
+ * @create  2013/02/15
+ * @version 1.00
+ */
+
+/* -------------------------------------------------------------------- */
+
+/*
+ * 会社概要
+ */
+#idCompanyRightBar {
+ 	background-image	: url(../images/company/right_companybar.png);
+	background-repeat	: none;
+ 	width				: 277px;
+ 	height				: 701px; 	
+	position		    : absolute;
+	top 			    : 0px;
+	left 			    : 1024px;
+	z-index				: 9;
+}
+
+#idCompanyTitle {
+ 	background-image	: url(../images/company/company_title.png);
+	background-repeat	: none;
+ 	width				: 0px;
+ 	height				: 24px; 	
+	position		    : absolute;
+	top 			    : 145px;
+	left 			    : 50px;
+}
+
+.clsCompanyMessage {
+	color		: #919191;
+	font-size	: 13px;
+	font-weight : normal;
+	font-family	: "ＭＳ Ｐゴシック","MS PGothic", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+}
+
+.clsCompanyTitleMessage div{
+	position	: absolute;
+	left 		: 50px;
+	width       : 0px;
+	height      : 16px;
+	overflow	: hidden;
+}
+#idCompanyTitleMessage1 { top : 190px; }
+#idCompanyTitleMessage2 { top : 210px; }
+#idCompanyTitleMessage3 { top : 230px; }
+#idCompanyTitleMessage4 { top : 250px; }
+#idCompanyTitleMessage5 { top : 270px; }
+#idCompanyTitleMessage6 { top : 290px; }
+#idCompanyTitleMessage7 { top : 310px; }
+#idCompanyTitleMessage8 { top : 330px; }
+#idCompanyTitleMessage9 { top : 350px; }
+
+#idCompanyPolicy {
+ 	background-image	: url(../images/company/company_three.png);
+	background-repeat	: none;
+ 	width				: 0px;
+ 	height				: 45px; 	
+	position		    : absolute;
+	top 			    : 460px;
+	left 			    : 50px;
+}
+
+.clsCompanyPolicyArea {
+ 	width		: 0px;
+ 	height		: 40px;
+	position	: absolute;
+	left 		: 60px;
+	overflow	: hidden;
+}
+
+.clsCompanyPolicyNumber {
+	position		    : absolute;
+	top 			    : 0px;
+	left 			    : 0px;
+	background-repeat	: none;
+ 	height				: 19px;
+}
+
+.clsCompanyPolicyWord {
+ 	width				: 600px;
+	height				: 19px;
+	position		    : absolute;
+	top 			    : 4px;
+	left 			    : 35px;
+}
+
+#idCompanyPolicy1 {
+	top 			    : 525px;
+ 	width				: 0px;
+}
+
+#idCompanyPolicyFirst1 {
+ 	background-image	: url(../images/company/first.png);
+ 	width				: 19px;
+}
+
+#idCompanyPolicy2 {
+	top 			    : 575px;
+ 	width				: 0px;
+}
+
+#idCompanyPolicySecond1 {
+ 	background-image	: url(../images/company/second.png);
+ 	width				: 21px;
+}
+
+#idCompanyPolicy3 {
+	top 			    : 625px;
+}
+
+#idCompanyPolicyThird1 {
+ 	background-image	: url(../images/company/third.png);
+ 	width				: 21px;
+}
+
+#idCompanyPolicy4 {
+	top 			    : 650px;
+}
+
+#idCompanyProfile {
+ 	width				: 0px;
+ 	height				: 30px; 	
+	position		    : absolute;
+	top 			    : 745px;
+	left 			    : 50px;
+	border-bottom       : 2px solid #509EBC;
+	overflow	        : hidden;
+}
+
+#idCompanyProfile2 {
+ 	background-image	: url(../images/company/company_profile.png);
+	background-repeat	: no-repeat;
+ 	width				: 93px;
+ 	height				: 23px;
+ 	margin-left         : 10px;  	
+}
+
+#idCompanyProfileArea1 {
+ 	width		: 0px;
+ 	height		: 380px;
+	position	: absolute;
+	left 		: 60px;
+	top			: 800px;
+	overflow	: hidden;
+	color		: #919191;
+	font-size	: 14px;
+	font-weight : normal;
+	font-family	: "ＭＳ Ｐゴシック","MS PGothic", "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",sans-serif;
+}
+
+.clsCompanyProfileLine {
+	position	: absolute;
+	left 		: 0px;
+	top			: 18px;
+	width		: 400px;
+	border-top  : 3px solid #E1E1E1;
+}
+
+#idCompanyProfile0-1 {
+	position	: absolute;
+	left 		: 0px;
+	top			: 0px;
+}
+
+#idCompanyProfile0-2 {
+	position	: absolute;
+	left 		: 160px;
+	top			: 0px;
+}
+
+#idCompanyProfile0-3 {
+	top			: 18px;
+}
+
+#idCompanyProfile1-1 {
+	position	: absolute;
+	left 		: 0px;
+	top			: 50px;
+}
+
+#idCompanyProfile1-2 {
+	position	: absolute;
+	left 		: 160px;
+	top			: 50px;
+}
+
+#idCompanyProfile1-3 {
+	top			: 68px;
+}
+
+#idCompanyProfile2-1 {
+	position	: absolute;
+	left 		: 0px;
+	top			: 100px;
+}
+
+#idCompanyProfile2-2 {
+	position	: absolute;
+	left 		: 160px;
+	top			: 100px;
+}
+
+#idCompanyProfile2-3 {
+	top			: 118px;
+}
+
+#idCompanyProfile3-1 {
+	position	: absolute;
+	left 		: 0px;
+	top			: 150px;
+}
+
+#idCompanyProfile3-2 {
+	position	: absolute;
+	left 		: 160px;
+	top			: 150px;
+}
+
+#idCompanyProfile3-3 {
+	top			: 168px;
+}
+
+#idCompanyProfile4-1 {
+	position	: absolute;
+	left 		: 0px;
+	top			: 200px;
+}
+
+#idCompanyProfile4-2 {
+	position	: absolute;
+	left 		: 160px;
+	top			: 200px;
+}
+
+#idCompanyProfile4-3 {
+	top			: 218px;
+}
+
+#idCompanyProfile5-1 {
+	position	: absolute;
+	left 		: 0px;
+	top			: 250px;
+}
+
+#idCompanyProfile5-2 {
+	position	: absolute;
+	left 		: 160px;
+	top			: 250px;
+}
+
+#idCompanyProfile5-3 {
+	top			: 268px;
+}
+
+#idCompanyProfile6-1 {
+	position	: absolute;
+	left 		: 0px;
+	top			: 300px;
+}
+
+#idCompanyProfile6-2 {
+	position	: absolute;
+	left 		: 160px;
+	top			: 300px;
+}
+
+#idCompanyProfile6-3 {
+	top			: 318px;
+}
+
+#idCompanyProfile7-1 {
+	position	: absolute;
+	left 		: 0px;
+	top			: 350px;
+}
+
+#idCompanyProfile7-2 {
+	position	: absolute;
+	left 		: 160px;
+	top			: 350px;
+}
+
+#idCompanyProfile7-3 {
+	top			: 368px;
+}
+

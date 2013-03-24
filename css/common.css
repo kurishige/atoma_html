@@ -1,0 +1,195 @@
+/**
+ * 共通
+ *
+ * 説明
+ *
+ * @author  Shigeaki Kurimoto <kurimoto@prgear.jp>
+ * @create  2013/02/15
+ * @version 1.00
+ */
+
+/* -------------------------------------------------------------------- */
+
+/*
+ * 全体
+ */
+body {
+	max-width			: 1024px;
+	margin				: 0 auto;
+	background-color    : #FFFFFF;
+}
+
+img {
+	border			: 0px;
+}
+
+div {
+	margin			: 0px;
+	padding 		: 0px;
+}
+
+a {
+	margin			: 0px;
+	padding 		: 0px;
+	border			: 0px;
+	text-decoration	: none;
+}
+
+ #idAtomaAll {
+	overflow	   		: hidden;
+	background-color    : #FFFFFF;
+ 	position			: relative;
+ 	width				: 1024px;
+ 	min-height			: 701px;
+	margin				: 0px auto;
+ }
+/* -------------------------------------------------------------------- */
+
+/*
+ * ヘッダー部
+ */
+header {
+	position		: absolute;
+	top 			: 0px;
+	left 			: 0px;
+ 	width			: auto;
+ 	height			: auto; 	
+}
+
+#idHeaderLogo {
+	position		: absolute;
+	top 			: -66px;
+	left 			: 55px;
+}
+
+.clsHeader img {
+	max-width		: 100% !important;
+	height			: auto !important;
+}
+
+#idHeaderLine {
+	position   : absolute;
+	top 	   : 95px;
+	left 	   : 350px;
+	border-top    : 1px solid #509EBC;
+	border-bottom : 1px solid #80CEEC;
+	width	   : 0px;
+	height	   : 0px; 
+}
+	
+#idHeaderMenuHome {
+ 	background-image	: url(../images/header/menu_home.png);
+	background-repeat	: none;
+ 	width				: 57px;
+ 	height				: 26px; 	
+	position		    : absolute;
+	top 			    : 37px;
+	left 			    : 768px;
+	z-index				: 20;
+	cursor				: pointer;
+}
+#idHeaderMenuHome:hover {
+ 	background-image	: url(../images/header/menu_home_on.png);
+}
+
+#idHeaderMenuCompany {
+ 	background-image	: url(../images/header/menu_company.png);
+	background-repeat	: none;
+ 	width				: 85px;
+ 	height				: 26px; 	
+	position		    : absolute;
+	top 			    : 77px;
+	left 			    : 768px;
+	z-index				: 20;
+	cursor				: pointer;
+}
+#idHeaderMenuCompany:hover {
+ 	background-image	: url(../images/header/menu_company_on.png);
+}
+
+#idHeaderMenuConcept {
+ 	background-image	: url(../images/header/menu_concept.png);
+	background-repeat	: none;
+ 	width				: 85px;
+ 	height				: 26px; 	
+	position		    : absolute;
+	top 			    : 117px;
+	left 			    : 768px;
+	z-index				: 20;
+	cursor				: pointer;
+}
+#idHeaderMenuConcept:hover {
+ 	background-image	: url(../images/header/menu_concept_on.png);
+}
+
+#idHeaderMenuContact {
+ 	background-image	: url(../images/header/menu_contact.png);
+	background-repeat	: none;
+ 	width				: 85px;
+ 	height				: 26px; 	
+	position		    : absolute;
+	top 			    : 159px;
+	left 			    : 768px;
+	z-index				: 20;
+	cursor				: pointer;
+}
+#idHeaderMenuContact:hover {
+ 	background-image	: url(../images/header/menu_contact_on.png);
+}
+
+.clsHeaderMenuHome2 {
+ 	background-image	: url(../images/header/menu2_home.png);
+	background-repeat	: none;
+	width				: 47px;
+ 	height				: 21px; 	
+	position		    : absolute;
+	top 			    : 37px;
+	left 			    : 747px;
+	cursor				: pointer;
+}
+.clsHeaderMenuHome2:hover,.clsHeaderMenu2On0 {
+ 	background-image	: url(../images/header/menu2_home_on.png);
+}
+
+.clsHeaderMenuCompany2 {
+ 	background-image	: url(../images/header/menu2_company.png);
+	background-repeat	: none;
+	width				: 71px;
+ 	height				: 21px; 	
+	position		    : absolute;
+	top 			    : 77px;
+	left 			    : 747px;
+	cursor				: pointer;
+}
+.clsHeaderMenuCompany2:hover,.clsHeaderMenu2On1 {
+ 	background-image	: url(../images/header/menu2_company_on.png);
+}
+
+.clsHeaderMenuConcept2 {
+ 	background-image	: url(../images/header/menu2_concept.png);
+	background-repeat	: none;
+	width				: 66px;
+ 	height				: 21px; 	
+	position		    : absolute;
+	top 			    : 117px;
+	left 			    : 747px;
+	cursor				: pointer;
+}
+.clsHeaderMenuConcept2:hover,.clsHeaderMenu2On2 {
+ 	background-image	: url(../images/header/menu2_concept_on.png);
+}
+
+.clsHeaderMenuContact2 {
+ 	background-image	: url(../images/header/menu2_contact.png);
+	background-repeat	: none;
+	width				: 68px;
+ 	height				: 21px; 	
+	position		    : absolute;
+	top 			    : 159px;
+	left 			    : 747px;
+	cursor				: pointer;
+}
+.clsHeaderMenuContact2:hover,.clsHeaderMenu2On3 {
+ 	background-image	: url(../images/header/menu2_contact_on.png);
+}
+
